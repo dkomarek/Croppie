@@ -1157,10 +1157,7 @@
             startX = 0,
             startY = 0,
             canvasWidth = data.outputWidth || width,
-            canvasHeight = data.outputHeight || height,
-            customDimensions = (data.outputWidth && data.outputHeight),
-            outputWidthRatio = 1,
-            outputHeightRatio = 1;
+            canvasHeight = data.outputHeight || height;
 
         canvas.width = canvasWidth;
         canvas.height = canvasHeight;
